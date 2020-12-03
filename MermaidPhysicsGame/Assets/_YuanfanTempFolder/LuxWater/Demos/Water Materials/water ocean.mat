@@ -134,7 +134,7 @@ Material:
     - _UnderwaterScatteringPower: 1.5
     - _UsesWaterVolume: 1
     - _WaterIOR: 1.333
-    - _WaterSurfaceYPos: -10
+    - _WaterSurfaceYPos: -10.505066
     - _WorldSpaceMappingEnabled: 1
     - _ZTest: 4
     - _ZWrite: 1
@@ -154,7 +154,7 @@ Material:
     - _FinalBumpSpeed23: {r: -0.4952861, g: 0.22979908, b: 0, a: 0}
     - _FoamCapsContrast: {r: 0, g: 0.99999994, b: 0, a: 0}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _GAmplitude: {r: 2, g: 2.61, b: 2.16, a: 3.2}
+    - _GAmplitude: {r: 2, g: 2.5, b: 2.16, a: 3.2}
     - _GDirectionAB: {r: 0.48175365, g: -0.8763067, b: 0.18686694, a: -0.9823852}
     - _GDirectionCD: {r: -0.25375783, g: -0.9672677, b: -0.8729222, a: -0.4878596}
     - _GFinalFrequency: {r: 0.144, g: 0.18879999, b: 0.17799999, a: 0.086}
