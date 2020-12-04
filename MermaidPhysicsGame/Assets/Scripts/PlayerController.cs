@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float turnTorque = 150000f;
-    public float thrust = 50000f;
+    public float rowForce = 150000f;
     public Transform rightOar;
     public Transform leftOar;
+    CameraLerp camLerp;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        camLerp = FindObjectOfType<CameraLerp>();
     }
 
     // Update is called once per frame
@@ -22,13 +22,13 @@ public class PlayerController : MonoBehaviour
         {
             //GetComponent<Rigidbody>().AddRelativeTorque(-transform.right * 150000);
             //GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * 50000);
-            GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * 150000, rightOar.position);
+            GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * 150000f, rightOar.position);
         }
         if (Input.GetKeyDown(KeyCode.J))
         {
             //GetComponent<Rigidbody>().AddRelativeTorque(transform.right * 150000);
             //GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * 50000);
-            GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * 150000, leftOar.position);
+            GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * 150000f, leftOar.position);
         }
     }
 }
