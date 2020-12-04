@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public float turnTorque = 150000f;
+    public float thrust = 50000f;
+    public Transform rightOar;
+    public Transform leftOar;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,15 +20,15 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            GetComponent<Rigidbody>().AddRelativeForce(Vector3.left * 20000);
-            GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * 5000);
-            Debug.Log("paddle left");
+            //GetComponent<Rigidbody>().AddRelativeTorque(-transform.right * 150000);
+            //GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * 50000);
+            GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * 150000, rightOar.position);
         }
         if (Input.GetKeyDown(KeyCode.J))
         {
-            GetComponent<Rigidbody>().AddRelativeForce(Vector3.right * 20000);
-            GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * 5000);
-            Debug.Log("paddle right");
+            //GetComponent<Rigidbody>().AddRelativeTorque(transform.right * 150000);
+            //GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * 50000);
+            GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * 150000, leftOar.position);
         }
     }
 }
