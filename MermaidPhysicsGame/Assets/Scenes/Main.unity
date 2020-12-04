@@ -5504,7 +5504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 120712257}
   - component: {fileID: 120712258}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LightParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8316,7 +8316,7 @@ GameObject:
   - component: {fileID: 180164136}
   - component: {fileID: 180164138}
   - component: {fileID: 180164137}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9905,7 +9905,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 311
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -14554,7 +14554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 341383187}
   - component: {fileID: 341383188}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LongBeam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14583,7 +14583,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 341383186}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
@@ -27088,7 +27088,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 311
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -31717,7 +31717,7 @@ GameObject:
   - component: {fileID: 746941828}
   - component: {fileID: 746941830}
   - component: {fileID: 746941829}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LightZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41293,7 +41293,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &993951479
 Transform:
   m_ObjectHideFlags: 0
@@ -46591,7 +46591,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 311
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -46683,7 +46683,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 311
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -60116,7 +60116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1462110624
 Transform:
   m_ObjectHideFlags: 0
@@ -70469,7 +70469,7 @@ GameObject:
   - component: {fileID: 1737193044}
   - component: {fileID: 1737193043}
   - component: {fileID: 1737193045}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: LongBeam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70553,7 +70553,7 @@ MonoBehaviour:
   intensityOutside: 0.84
   blendingMode: 0
   spotAngleFromLight: 1
-  spotAngle: 45.3
+  spotAngle: 85.5
   coneRadiusStart: 0.05
   geomMeshType: 0
   geomCustomSides: 32
@@ -70570,7 +70570,7 @@ MonoBehaviour:
   glareBehind: 0.837
   boostDistanceInside: 0.5
   fresnelPowInside: 1.0000002
-  fresnelPow: 8.84
+  fresnelPow: 1.94
   noiseEnabled: 1
   noiseIntensity: 0.58
   noiseScaleUseGlobal: 0
@@ -73700,7 +73700,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 53
+    m_Bits: 565
   m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
