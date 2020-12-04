@@ -14,6 +14,8 @@ ScriptsOnlyBuild:
     - LuxWater.LuxWater_WaterVolume
     - LuxWater.LuxWater_WaterVolumeTrigger
     - LuxWater_SetToGerstnerHeight
+    - Orbital
+    - PlayerController
     - SelfRotate
     - VLB.Config
     - VLB.VolumetricDustParticles
@@ -123,8 +125,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -176,6 +176,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12432}
     - Class: 114
+      Script: {instanceID: 12580}
+    - Class: 114
       Script: {instanceID: 12642}
     - Class: 114
       Script: {instanceID: 12876}
@@ -198,63 +200,63 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14072}
     - Class: 114
-      Script: {instanceID: 14246}
+      Script: {instanceID: 14120}
     - Class: 114
-      Script: {instanceID: 14274}
+      Script: {instanceID: 14248}
     - Class: 114
-      Script: {instanceID: 14416}
+      Script: {instanceID: 14276}
     - Class: 114
-      Script: {instanceID: 14626}
+      Script: {instanceID: 14418}
     - Class: 114
-      Script: {instanceID: 14662}
+      Script: {instanceID: 14628}
     - Class: 114
-      Script: {instanceID: 14736}
+      Script: {instanceID: 14664}
     - Class: 114
-      Script: {instanceID: 14756}
+      Script: {instanceID: 14738}
     - Class: 114
-      Script: {instanceID: 14920}
+      Script: {instanceID: 14758}
     - Class: 114
-      Script: {instanceID: 14954}
+      Script: {instanceID: 14922}
     - Class: 114
-      Script: {instanceID: 14966}
+      Script: {instanceID: 14956}
     - Class: 114
-      Script: {instanceID: 15148}
+      Script: {instanceID: 14968}
     - Class: 114
-      Script: {instanceID: 15348}
+      Script: {instanceID: 15150}
     - Class: 114
-      Script: {instanceID: 15360}
+      Script: {instanceID: 15350}
     - Class: 114
-      Script: {instanceID: 15428}
+      Script: {instanceID: 15362}
     - Class: 114
-      Script: {instanceID: 15536}
+      Script: {instanceID: 15430}
     - Class: 114
-      Script: {instanceID: 15726}
+      Script: {instanceID: 15538}
     - Class: 114
-      Script: {instanceID: 15962}
+      Script: {instanceID: 15728}
     - Class: 114
-      Script: {instanceID: 16010}
+      Script: {instanceID: 15964}
     - Class: 114
       Script: {instanceID: 16012}
     - Class: 114
-      Script: {instanceID: 16074}
+      Script: {instanceID: 16014}
     - Class: 114
-      Script: {instanceID: 16092}
+      Script: {instanceID: 16076}
     - Class: 114
-      Script: {instanceID: 16142}
+      Script: {instanceID: 16094}
     - Class: 114
-      Script: {instanceID: 16266}
+      Script: {instanceID: 16144}
     - Class: 114
-      Script: {instanceID: 16270}
+      Script: {instanceID: 16268}
     - Class: 114
-      Script: {instanceID: 16322}
+      Script: {instanceID: 16272}
     - Class: 114
-      Script: {instanceID: 16350}
+      Script: {instanceID: 16324}
     - Class: 114
-      Script: {instanceID: 16496}
+      Script: {instanceID: 16352}
     - Class: 114
-      Script: {instanceID: 16502}
+      Script: {instanceID: 16498}
     - Class: 114
-      Script: {instanceID: 27380}
+      Script: {instanceID: 16504}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -286,8 +288,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 258
       Script: {instanceID: 0}
     - Class: 1953259897
       Script: {instanceID: 0}
@@ -690,7 +690,7 @@ ScriptsOnlyBuild:
     className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: f757afc0aab1458458358561f99b7b72
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -1138,6 +1138,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.UI
     className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Orbital
   - hash:
       serializedVersion: 2
       Hash: 50c443b12ccc0b475183318b5088bcc5
