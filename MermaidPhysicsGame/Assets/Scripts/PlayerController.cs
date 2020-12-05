@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float rowForce = 150000f;
+    public float strokeForce = 50000f;
+    public float decayR = 1f;
+    public float decayL = 1f;
+    public float accR = 0f;
+    public float accL = 0f;
+    public int strokeTimeR = 0;
+    public int strokeTimeL = 0;
     public Transform rightOar;
     public Transform leftOar;
     CameraLerp camLerp;
@@ -16,19 +22,48 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() 
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKey(KeyCode.F))
         {
-            //GetComponent<Rigidbody>().AddRelativeTorque(-transform.right * 150000);
-            //GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * 50000);
-            GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * 150000f, rightOar.position);
+            if (strokeTimeL > 10)
+            {
+                GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * strokeForce / decayL, leftOar.position);
+                decayL *= 1.5f;
+            }
+            else
+            {
+                GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * strokeForce * decayL, leftOar.position);
+                accL *= 5f;
+            }
+
+            strokeTimeL++;
         }
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKey(KeyCode.J))
         {
-            //GetComponent<Rigidbody>().AddRelativeTorque(transform.right * 150000);
-            //GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * 50000);
-            GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * 150000f, leftOar.position);
+            if(strokeTimeR > 10)
+            {
+                GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * strokeForce / decayR, rightOar.position);
+                decayR *= 1.5f;
+            }
+            else
+            {
+                GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * strokeForce * decayR, rightOar.position);
+                accR *= 5f;
+            }
+
+            strokeTimeR++;
+        }
+
+        if (Input.GetKeyUp(KeyCode.F))
+        {
+            decayL = 1f;
+            strokeTimeL = 0;
+        }
+        if (Input.GetKeyUp(KeyCode.J))
+        {
+            decayR = 1f;
+            strokeTimeR = 0;
         }
     }
 }

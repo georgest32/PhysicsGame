@@ -18,6 +18,7 @@ ScriptsOnlyBuild:
     - PlayerController
     - SelfRotate
     - VLB.Config
+    - VLB.ConfigOverride
     - VLB.VolumetricDustParticles
     - VLB.VolumetricLightBeam
     - VLB_Samples.Rotater
@@ -130,8 +131,6 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11528}
-    - Class: 114
       Script: {instanceID: 11530}
     - Class: 114
       Script: {instanceID: 11532}
@@ -142,121 +141,125 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11538}
     - Class: 114
-      Script: {instanceID: 11544}
+      Script: {instanceID: 11540}
     - Class: 114
-      Script: {instanceID: 11548}
+      Script: {instanceID: 11546}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11550}
     - Class: 114
-      Script: {instanceID: 11578}
+      Script: {instanceID: 11556}
     - Class: 114
-      Script: {instanceID: 11628}
+      Script: {instanceID: 11580}
     - Class: 114
-      Script: {instanceID: 11730}
+      Script: {instanceID: 11630}
     - Class: 114
-      Script: {instanceID: 11820}
+      Script: {instanceID: 11732}
     - Class: 114
-      Script: {instanceID: 11868}
+      Script: {instanceID: 11824}
     - Class: 114
-      Script: {instanceID: 11902}
+      Script: {instanceID: 11872}
     - Class: 114
-      Script: {instanceID: 11992}
+      Script: {instanceID: 11906}
     - Class: 114
-      Script: {instanceID: 12006}
+      Script: {instanceID: 11996}
     - Class: 114
-      Script: {instanceID: 12144}
+      Script: {instanceID: 12010}
     - Class: 114
-      Script: {instanceID: 12188}
+      Script: {instanceID: 12148}
     - Class: 114
-      Script: {instanceID: 12208}
+      Script: {instanceID: 12192}
     - Class: 114
-      Script: {instanceID: 12282}
+      Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12412}
+      Script: {instanceID: 12286}
     - Class: 114
-      Script: {instanceID: 12432}
+      Script: {instanceID: 12416}
     - Class: 114
-      Script: {instanceID: 12580}
+      Script: {instanceID: 12436}
     - Class: 114
-      Script: {instanceID: 12642}
+      Script: {instanceID: 12586}
     - Class: 114
-      Script: {instanceID: 12876}
+      Script: {instanceID: 12648}
     - Class: 114
-      Script: {instanceID: 12952}
+      Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 12996}
+      Script: {instanceID: 12962}
     - Class: 114
-      Script: {instanceID: 13300}
+      Script: {instanceID: 13006}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 13014}
     - Class: 114
-      Script: {instanceID: 13658}
+      Script: {instanceID: 13312}
     - Class: 114
-      Script: {instanceID: 13734}
+      Script: {instanceID: 13598}
     - Class: 114
-      Script: {instanceID: 13874}
+      Script: {instanceID: 13670}
     - Class: 114
-      Script: {instanceID: 13956}
+      Script: {instanceID: 13746}
     - Class: 114
-      Script: {instanceID: 14072}
+      Script: {instanceID: 13888}
     - Class: 114
-      Script: {instanceID: 14120}
+      Script: {instanceID: 13970}
     - Class: 114
-      Script: {instanceID: 14248}
+      Script: {instanceID: 14086}
     - Class: 114
-      Script: {instanceID: 14276}
+      Script: {instanceID: 14134}
     - Class: 114
-      Script: {instanceID: 14418}
+      Script: {instanceID: 14262}
     - Class: 114
-      Script: {instanceID: 14628}
+      Script: {instanceID: 14290}
     - Class: 114
-      Script: {instanceID: 14664}
+      Script: {instanceID: 14432}
     - Class: 114
-      Script: {instanceID: 14738}
+      Script: {instanceID: 14642}
     - Class: 114
-      Script: {instanceID: 14758}
+      Script: {instanceID: 14678}
     - Class: 114
-      Script: {instanceID: 14922}
+      Script: {instanceID: 14752}
     - Class: 114
-      Script: {instanceID: 14956}
+      Script: {instanceID: 14772}
     - Class: 114
-      Script: {instanceID: 14968}
+      Script: {instanceID: 14938}
     - Class: 114
-      Script: {instanceID: 15150}
+      Script: {instanceID: 14972}
     - Class: 114
-      Script: {instanceID: 15350}
+      Script: {instanceID: 14984}
     - Class: 114
-      Script: {instanceID: 15362}
+      Script: {instanceID: 15168}
     - Class: 114
-      Script: {instanceID: 15430}
+      Script: {instanceID: 15368}
     - Class: 114
-      Script: {instanceID: 15538}
+      Script: {instanceID: 15380}
     - Class: 114
-      Script: {instanceID: 15728}
+      Script: {instanceID: 15448}
     - Class: 114
-      Script: {instanceID: 15964}
+      Script: {instanceID: 15558}
     - Class: 114
-      Script: {instanceID: 16012}
+      Script: {instanceID: 15752}
     - Class: 114
-      Script: {instanceID: 16014}
+      Script: {instanceID: 15988}
     - Class: 114
-      Script: {instanceID: 16076}
+      Script: {instanceID: 16036}
     - Class: 114
-      Script: {instanceID: 16094}
+      Script: {instanceID: 16038}
     - Class: 114
-      Script: {instanceID: 16144}
+      Script: {instanceID: 16100}
     - Class: 114
-      Script: {instanceID: 16268}
+      Script: {instanceID: 16118}
     - Class: 114
-      Script: {instanceID: 16272}
+      Script: {instanceID: 16168}
     - Class: 114
-      Script: {instanceID: 16324}
+      Script: {instanceID: 16292}
     - Class: 114
-      Script: {instanceID: 16352}
+      Script: {instanceID: 16296}
     - Class: 114
-      Script: {instanceID: 16498}
+      Script: {instanceID: 16350}
     - Class: 114
-      Script: {instanceID: 16504}
+      Script: {instanceID: 16378}
+    - Class: 114
+      Script: {instanceID: 16524}
+    - Class: 114
+      Script: {instanceID: 16530}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -412,6 +415,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerBitField
+  - hash:
+      serializedVersion: 2
+      Hash: 90692bbddc1e214d4a3cae6e0e597945
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FloatingGameEntityRealist
   - hash:
       serializedVersion: 2
       Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
@@ -690,7 +699,13 @@ ScriptsOnlyBuild:
     className: TrackedPoseDriver
   - hash:
       serializedVersion: 2
-      Hash: f757afc0aab1458458358561f99b7b72
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraLerp
+  - hash:
+      serializedVersion: 2
+      Hash: d704f6a2acaf651e5b9a0bc2d5d10bd2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -768,6 +783,12 @@ ScriptsOnlyBuild:
     className: Submarine
   - hash:
       serializedVersion: 2
+      Hash: 761815fc4b4b621239e66b51016984a2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PropellerBoats
+  - hash:
+      serializedVersion: 2
       Hash: 50d893c48b1c02a4b8ede5fe28ff9e85
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.UI
@@ -814,6 +835,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: LuxWater
     className: LuxWater_PlanarReflection
+  - hash:
+      serializedVersion: 2
+      Hash: 90692bbddc1e214d4a3cae6e0e597945
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FloatingGameEntityFlat
   - hash:
       serializedVersion: 2
       Hash: 949a5890ce572ec240178521254b72e1
@@ -880,6 +907,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FloatObjectScript
+  - hash:
+      serializedVersion: 2
+      Hash: c40f6d054ca7dd66af1df30ad54c752d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OceanAdvanced
   - hash:
       serializedVersion: 2
       Hash: c7fc0c1141505e506fc99e67a0f80b58
@@ -1036,6 +1069,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: LuxWater
     className: LuxWater_PlanarWaterTile
+  - hash:
+      serializedVersion: 2
+      Hash: a064ddaf8f981efc803a1fc5f62ef4f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WakeGenerator
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1428,6 +1467,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerButton
   - hash:
       serializedVersion: 2
+      Hash: b2d1b0dc62ee4a279944010840234163
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BoatController
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: VLB
@@ -1548,6 +1593,12 @@ ScriptsOnlyBuild:
     className: CameraFollow
   - hash:
       serializedVersion: 2
+      Hash: b1a489a62d7dd2507578f8211f916485
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameEntity
+  - hash:
+      serializedVersion: 2
       Hash: 803c8b514b19ca90f5ffcbc3eb1e19db
     assemblyName: Assembly-CSharp.dll
     namespaceName: LuxWater
@@ -1570,6 +1621,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: DefaultWater
     className: GerstnerDisplace
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Proxies
+  - hash:
+      serializedVersion: 2
+      Hash: 90692bbddc1e214d4a3cae6e0e597945
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FloatingGameEntityStorm
   - hash:
       serializedVersion: 2
       Hash: 21bb58d8488613469f2d0ad9954c1b52
@@ -1786,6 +1849,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerIntField
+  - hash:
+      serializedVersion: 2
+      Hash: a064ddaf8f981efc803a1fc5f62ef4f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SplashGenerator
   - hash:
       serializedVersion: 2
       Hash: ca0b8ad3987cd33b3209a508b6e1562e
