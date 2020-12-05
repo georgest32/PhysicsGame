@@ -15,11 +15,11 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 1
-  m_FogColor: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 0.7019608}
-  m_FogMode: 3
-  m_FogDensity: 0.001
-  m_LinearFogStart: 0
-  m_LinearFogEnd: 300
+  m_FogColor: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 0.15686275}
+  m_FogMode: 1
+  m_FogDensity: 0.01
+  m_LinearFogStart: 240
+  m_LinearFogEnd: 320
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
@@ -41278,7 +41278,7 @@ PrefabInstance:
     - target: {fileID: 3063880728000574357, guid: 49dfa229b5e8c684f8bae790176b0006,
         type: 3}
       propertyPath: skinFrictionDrag
-      value: 0.0637
+      value: 0.1002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49dfa229b5e8c684f8bae790176b0006, type: 3}
