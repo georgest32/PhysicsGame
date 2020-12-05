@@ -12,7 +12,6 @@ public class CurrentController : MonoBehaviour
         if (other.tag == "Player")
         {
             other.GetComponent<Rigidbody>().AddForce(new Vector3(currentDirection.x, 0, currentDirection.z) * currentSpeed);
-            Debug.Log("boop");
         }
     }
 }
