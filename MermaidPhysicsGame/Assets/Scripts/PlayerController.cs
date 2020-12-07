@@ -13,13 +13,6 @@ public class PlayerController : MonoBehaviour
     public int strokeTimeL = 0;
     public Transform rightOar;
     public Transform leftOar;
-    CameraLerp camLerp;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        camLerp = FindObjectOfType<CameraLerp>();
-    }
 
     // Update is called once per frame
     void Update() 

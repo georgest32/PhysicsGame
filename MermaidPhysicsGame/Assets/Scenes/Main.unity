@@ -70658,7 +70658,7 @@ MonoBehaviour:
   glareBehind: 0.837
   boostDistanceInside: 0.5
   fresnelPowInside: 1.0000002
-  fresnelPow: 1.94
+  fresnelPow: 7.19
   noiseEnabled: 1
   noiseIntensity: 0.58
   noiseScaleUseGlobal: 0
