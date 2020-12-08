@@ -1,0 +1,1722 @@
+fileFormatVersion: 2
+guid: f2e9e4291658e4c96883c91d16580f3e
+timeCreated: 1465048029
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: AmmoniteDummy
+    100004: Body
+    100006: Eye_L
+    100008: Eye_R
+    100010: Funnel1
+    100012: Funnel1_L
+    100014: Funnel1_R
+    100016: LowerBeak
+    100018: LowerFunnel
+    100020: Root
+    100022: Shell
+    100024: Tentacle1_0_L
+    100026: Tentacle1_0_R
+    100028: Tentacle1_1_L
+    100030: Tentacle1_1_R
+    100032: Tentacle1_2_L
+    100034: Tentacle1_2_R
+    100036: Tentacle1_3_L
+    100038: Tentacle1_3_R
+    100040: Tentacle1_4_L
+    100042: Tentacle1_4_R
+    100044: Tentacle1_5_L
+    100046: Tentacle1_5_R
+    100048: Tentacle2_0_L
+    100050: Tentacle2_0_R
+    100052: Tentacle2_1_L
+    100054: Tentacle2_1_R
+    100056: Tentacle2_2_L
+    100058: Tentacle2_2_R
+    100060: Tentacle2_3_L
+    100062: Tentacle2_3_R
+    100064: Tentacle2_4_L
+    100066: Tentacle2_4_R
+    100068: Tentacle2_5_L
+    100070: Tentacle2_5_R
+    100072: Tentacle3_0_L
+    100074: Tentacle3_0_R
+    100076: Tentacle3_1_L
+    100078: Tentacle3_1_R
+    100080: Tentacle3_2_L
+    100082: Tentacle3_2_R
+    100084: Tentacle3_3_L
+    100086: Tentacle3_3_R
+    100088: Tentacle3_4_L
+    100090: Tentacle3_4_R
+    100092: Tentacle3_5_L
+    100094: Tentacle3_5_R
+    100096: Tentacle4_0_L
+    100098: Tentacle4_0_R
+    100100: Tentacle4_1_L
+    100102: Tentacle4_1_R
+    100104: Tentacle4_2_L
+    100106: Tentacle4_2_R
+    100108: Tentacle4_3_L
+    100110: Tentacle4_3_R
+    100112: Tentacle4_4_L
+    100114: Tentacle4_4_R
+    100116: Tentacle4_5_L
+    100118: Tentacle4_5_R
+    100120: Tentacle5_0_L
+    100122: Tentacle5_0_R
+    100124: Tentacle5_1_L
+    100126: Tentacle5_1_R
+    100128: Tentacle5_2_L
+    100130: Tentacle5_2_R
+    100132: Tentacle5_3_L
+    100134: Tentacle5_3_R
+    100136: Tentacle5_4_L
+    100138: Tentacle5_4_R
+    100140: Tentacle5_5_L
+    100142: Tentacle5_5_R
+    100144: Tentacle5_6_L
+    100146: Tentacle5_6_R
+    100148: Tentacle5_7_L
+    100150: Tentacle5_7_R
+    100152: Tentacle5_8_L
+    100154: Tentacle5_8_R
+    100156: UpperFunnel
+    100158: UppperBeak
+    400000: //RootNode
+    400002: AmmoniteDummy
+    400004: Body
+    400006: Eye_L
+    400008: Eye_R
+    400010: Funnel1
+    400012: Funnel1_L
+    400014: Funnel1_R
+    400016: LowerBeak
+    400018: LowerFunnel
+    400020: Root
+    400022: Shell
+    400024: Tentacle1_0_L
+    400026: Tentacle1_0_R
+    400028: Tentacle1_1_L
+    400030: Tentacle1_1_R
+    400032: Tentacle1_2_L
+    400034: Tentacle1_2_R
+    400036: Tentacle1_3_L
+    400038: Tentacle1_3_R
+    400040: Tentacle1_4_L
+    400042: Tentacle1_4_R
+    400044: Tentacle1_5_L
+    400046: Tentacle1_5_R
+    400048: Tentacle2_0_L
+    400050: Tentacle2_0_R
+    400052: Tentacle2_1_L
+    400054: Tentacle2_1_R
+    400056: Tentacle2_2_L
+    400058: Tentacle2_2_R
+    400060: Tentacle2_3_L
+    400062: Tentacle2_3_R
+    400064: Tentacle2_4_L
+    400066: Tentacle2_4_R
+    400068: Tentacle2_5_L
+    400070: Tentacle2_5_R
+    400072: Tentacle3_0_L
+    400074: Tentacle3_0_R
+    400076: Tentacle3_1_L
+    400078: Tentacle3_1_R
+    400080: Tentacle3_2_L
+    400082: Tentacle3_2_R
+    400084: Tentacle3_3_L
+    400086: Tentacle3_3_R
+    400088: Tentacle3_4_L
+    400090: Tentacle3_4_R
+    400092: Tentacle3_5_L
+    400094: Tentacle3_5_R
+    400096: Tentacle4_0_L
+    400098: Tentacle4_0_R
+    400100: Tentacle4_1_L
+    400102: Tentacle4_1_R
+    400104: Tentacle4_2_L
+    400106: Tentacle4_2_R
+    400108: Tentacle4_3_L
+    400110: Tentacle4_3_R
+    400112: Tentacle4_4_L
+    400114: Tentacle4_4_R
+    400116: Tentacle4_5_L
+    400118: Tentacle4_5_R
+    400120: Tentacle5_0_L
+    400122: Tentacle5_0_R
+    400124: Tentacle5_1_L
+    400126: Tentacle5_1_R
+    400128: Tentacle5_2_L
+    400130: Tentacle5_2_R
+    400132: Tentacle5_3_L
+    400134: Tentacle5_3_R
+    400136: Tentacle5_4_L
+    400138: Tentacle5_4_R
+    400140: Tentacle5_5_L
+    400142: Tentacle5_5_R
+    400144: Tentacle5_6_L
+    400146: Tentacle5_6_R
+    400148: Tentacle5_7_L
+    400150: Tentacle5_7_R
+    400152: Tentacle5_8_L
+    400154: Tentacle5_8_R
+    400156: UpperFunnel
+    400158: UppperBeak
+    7400000: Idle
+    7400002: Swim
+    7400004: SwimRight
+    7400006: SwimLeft
+    7400008: SwimDown
+    7400010: SwimUp
+    7400012: Attack
+    7400014: Hit
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AmmoniteDummy
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Body
+        weight: 1
+      - path: Root/Body/Eye_L
+        weight: 1
+      - path: Root/Body/Eye_R
+        weight: 1
+      - path: Root/Body/Funnel1
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_L
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_R
+        weight: 1
+      - path: Root/Body/Funnel1/LowerFunnel
+        weight: 1
+      - path: Root/Body/Funnel1/UpperFunnel
+        weight: 1
+      - path: Root/Body/LowerBeak
+        weight: 1
+      - path: Root/Body/Shell
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L/Tentacle1_5_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R/Tentacle1_5_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L/Tentacle2_5_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R/Tentacle2_5_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L/Tentacle3_5_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R/Tentacle3_5_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L/Tentacle4_5_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R/Tentacle4_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L/Tentacle5_8_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R/Tentacle5_8_R
+        weight: 1
+      - path: Root/Body/UppperBeak
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Swim
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AmmoniteDummy
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Body
+        weight: 1
+      - path: Root/Body/Eye_L
+        weight: 1
+      - path: Root/Body/Eye_R
+        weight: 1
+      - path: Root/Body/Funnel1
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_L
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_R
+        weight: 1
+      - path: Root/Body/Funnel1/LowerFunnel
+        weight: 1
+      - path: Root/Body/Funnel1/UpperFunnel
+        weight: 1
+      - path: Root/Body/LowerBeak
+        weight: 1
+      - path: Root/Body/Shell
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L/Tentacle1_5_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R/Tentacle1_5_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L/Tentacle2_5_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R/Tentacle2_5_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L/Tentacle3_5_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R/Tentacle3_5_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L/Tentacle4_5_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R/Tentacle4_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L/Tentacle5_8_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R/Tentacle5_8_R
+        weight: 1
+      - path: Root/Body/UppperBeak
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SwimRight
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AmmoniteDummy
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Body
+        weight: 1
+      - path: Root/Body/Eye_L
+        weight: 1
+      - path: Root/Body/Eye_R
+        weight: 1
+      - path: Root/Body/Funnel1
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_L
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_R
+        weight: 1
+      - path: Root/Body/Funnel1/LowerFunnel
+        weight: 1
+      - path: Root/Body/Funnel1/UpperFunnel
+        weight: 1
+      - path: Root/Body/LowerBeak
+        weight: 1
+      - path: Root/Body/Shell
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L/Tentacle1_5_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R/Tentacle1_5_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L/Tentacle2_5_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R/Tentacle2_5_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L/Tentacle3_5_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R/Tentacle3_5_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L/Tentacle4_5_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R/Tentacle4_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L/Tentacle5_8_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R/Tentacle5_8_R
+        weight: 1
+      - path: Root/Body/UppperBeak
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SwimLeft
+      takeName: Take 001
+      firstFrame: 130
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AmmoniteDummy
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Body
+        weight: 1
+      - path: Root/Body/Eye_L
+        weight: 1
+      - path: Root/Body/Eye_R
+        weight: 1
+      - path: Root/Body/Funnel1
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_L
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_R
+        weight: 1
+      - path: Root/Body/Funnel1/LowerFunnel
+        weight: 1
+      - path: Root/Body/Funnel1/UpperFunnel
+        weight: 1
+      - path: Root/Body/LowerBeak
+        weight: 1
+      - path: Root/Body/Shell
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L/Tentacle1_5_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R/Tentacle1_5_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L/Tentacle2_5_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R/Tentacle2_5_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L/Tentacle3_5_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R/Tentacle3_5_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L/Tentacle4_5_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R/Tentacle4_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L/Tentacle5_8_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R/Tentacle5_8_R
+        weight: 1
+      - path: Root/Body/UppperBeak
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SwimDown
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AmmoniteDummy
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Body
+        weight: 1
+      - path: Root/Body/Eye_L
+        weight: 1
+      - path: Root/Body/Eye_R
+        weight: 1
+      - path: Root/Body/Funnel1
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_L
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_R
+        weight: 1
+      - path: Root/Body/Funnel1/LowerFunnel
+        weight: 1
+      - path: Root/Body/Funnel1/UpperFunnel
+        weight: 1
+      - path: Root/Body/LowerBeak
+        weight: 1
+      - path: Root/Body/Shell
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L/Tentacle1_5_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R/Tentacle1_5_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L/Tentacle2_5_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R/Tentacle2_5_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L/Tentacle3_5_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R/Tentacle3_5_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L/Tentacle4_5_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R/Tentacle4_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L/Tentacle5_8_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R/Tentacle5_8_R
+        weight: 1
+      - path: Root/Body/UppperBeak
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SwimUp
+      takeName: Take 001
+      firstFrame: 210
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AmmoniteDummy
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Body
+        weight: 1
+      - path: Root/Body/Eye_L
+        weight: 1
+      - path: Root/Body/Eye_R
+        weight: 1
+      - path: Root/Body/Funnel1
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_L
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_R
+        weight: 1
+      - path: Root/Body/Funnel1/LowerFunnel
+        weight: 1
+      - path: Root/Body/Funnel1/UpperFunnel
+        weight: 1
+      - path: Root/Body/LowerBeak
+        weight: 1
+      - path: Root/Body/Shell
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L/Tentacle1_5_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R/Tentacle1_5_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L/Tentacle2_5_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R/Tentacle2_5_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L/Tentacle3_5_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R/Tentacle3_5_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L/Tentacle4_5_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R/Tentacle4_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L/Tentacle5_8_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R/Tentacle5_8_R
+        weight: 1
+      - path: Root/Body/UppperBeak
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 250
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AmmoniteDummy
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Body
+        weight: 1
+      - path: Root/Body/Eye_L
+        weight: 1
+      - path: Root/Body/Eye_R
+        weight: 1
+      - path: Root/Body/Funnel1
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_L
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_R
+        weight: 1
+      - path: Root/Body/Funnel1/LowerFunnel
+        weight: 1
+      - path: Root/Body/Funnel1/UpperFunnel
+        weight: 1
+      - path: Root/Body/LowerBeak
+        weight: 1
+      - path: Root/Body/Shell
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L/Tentacle1_5_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R/Tentacle1_5_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L/Tentacle2_5_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R/Tentacle2_5_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L/Tentacle3_5_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R/Tentacle3_5_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L/Tentacle4_5_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R/Tentacle4_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L/Tentacle5_8_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R/Tentacle5_8_R
+        weight: 1
+      - path: Root/Body/UppperBeak
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 290
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AmmoniteDummy
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Body
+        weight: 1
+      - path: Root/Body/Eye_L
+        weight: 1
+      - path: Root/Body/Eye_R
+        weight: 1
+      - path: Root/Body/Funnel1
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_L
+        weight: 1
+      - path: Root/Body/Funnel1/Funnel1_R
+        weight: 1
+      - path: Root/Body/Funnel1/LowerFunnel
+        weight: 1
+      - path: Root/Body/Funnel1/UpperFunnel
+        weight: 1
+      - path: Root/Body/LowerBeak
+        weight: 1
+      - path: Root/Body/Shell
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_L/Tentacle1_1_L/Tentacle1_2_L/Tentacle1_3_L/Tentacle1_4_L/Tentacle1_5_L
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R
+        weight: 1
+      - path: Root/Body/Tentacle1_0_R/Tentacle1_1_R/Tentacle1_2_R/Tentacle1_3_R/Tentacle1_4_R/Tentacle1_5_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_L/Tentacle2_1_L/Tentacle2_2_L/Tentacle2_3_L/Tentacle2_4_L/Tentacle2_5_L
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R
+        weight: 1
+      - path: Root/Body/Tentacle2_0_R/Tentacle2_1_R/Tentacle2_2_R/Tentacle2_3_R/Tentacle2_4_R/Tentacle2_5_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_L/Tentacle3_1_L/Tentacle3_2_L/Tentacle3_3_L/Tentacle3_4_L/Tentacle3_5_L
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R
+        weight: 1
+      - path: Root/Body/Tentacle3_0_R/Tentacle3_1_R/Tentacle3_2_R/Tentacle3_3_R/Tentacle3_4_R/Tentacle3_5_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_L/Tentacle4_1_L/Tentacle4_2_L/Tentacle4_3_L/Tentacle4_4_L/Tentacle4_5_L
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R
+        weight: 1
+      - path: Root/Body/Tentacle4_0_R/Tentacle4_1_R/Tentacle4_2_R/Tentacle4_3_R/Tentacle4_4_R/Tentacle4_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_L/Tentacle5_1_L/Tentacle5_2_L/Tentacle5_3_L/Tentacle5_4_L/Tentacle5_5_L/Tentacle5_6_L/Tentacle5_7_L/Tentacle5_8_L
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R
+        weight: 1
+      - path: Root/Body/Tentacle5_0_R/Tentacle5_1_R/Tentacle5_2_R/Tentacle5_3_R/Tentacle5_4_R/Tentacle5_5_R/Tentacle5_6_R/Tentacle5_7_R/Tentacle5_8_R
+        weight: 1
+      - path: Root/Body/UppperBeak
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Root
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
