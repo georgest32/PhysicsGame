@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.F))
         {
-            if (strokeTimeL > 10)
+            if (strokeTimeL > 9)
             {
                 GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * strokeForce / decayL, leftOar.position);
                 decayL *= 1.5f;
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.J))
         {
-            if(strokeTimeR > 10)
+            if(strokeTimeR > 9)
             {
                 GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * strokeForce / decayR, rightOar.position);
                 decayR *= 1.5f;
