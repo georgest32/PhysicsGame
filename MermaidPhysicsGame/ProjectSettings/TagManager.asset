@@ -7,6 +7,7 @@ TagManager:
   - titleToggle
   - Menu
   - MenuCamera
+  - CandleFlame
   layers:
   - Default
   - TransparentFX
