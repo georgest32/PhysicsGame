@@ -82,7 +82,7 @@ Material:
     - _FogAbsorptionCancellation: 0.97
     - _FresbnelFactor: 5
     - _FresnelPower: 5
-    - _GGlobalFrequency: 0.025
+    - _GGlobalFrequency: 0.02
     - _GGlobalRotation: 85
     - _GGlobalSpeed: 0.7
     - _GerstnerElevationFactor: 0
@@ -154,10 +154,10 @@ Material:
     - _FinalBumpSpeed23: {r: -0.4952861, g: 0.22979908, b: 0, a: 0}
     - _FoamCapsContrast: {r: 0, g: 0.99999994, b: 0, a: 0}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _GAmplitude: {r: 2, g: 2.5, b: 2.16, a: 3.2}
+    - _GAmplitude: {r: 2, g: 1.25, b: 2.16, a: 3.2}
     - _GDirectionAB: {r: 0.48175365, g: -0.8763067, b: 0.18686694, a: -0.9823852}
     - _GDirectionCD: {r: -0.25375783, g: -0.9672677, b: -0.8729222, a: -0.4878596}
-    - _GFinalFrequency: {r: 0.17999999, g: 0.23599999, b: 0.2225, a: 0.10750001}
+    - _GFinalFrequency: {r: 0.144, g: 0.18879999, b: 0.17799999, a: 0.086}
     - _GFinalSpeed: {r: 0.7, g: 0.97999996, b: 0.84000003, a: 0.77}
     - _GFrequency: {r: 7.2, g: 9.44, b: 8.9, a: 4.3}
     - _GRotation: {r: -23.8, g: -5.77, b: 19.7, a: 65.8}

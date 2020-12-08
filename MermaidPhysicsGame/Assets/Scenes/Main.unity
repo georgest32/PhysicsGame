@@ -9545,12 +9545,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 210908960}
-  - component: {fileID: 210908963}
   - component: {fileID: 210908962}
-  - component: {fileID: 210908961}
-  - component: {fileID: 210908965}
   - component: {fileID: 210908966}
+  - component: {fileID: 210908963}
+  - component: {fileID: 210908965}
   - component: {fileID: 210908964}
+  - component: {fileID: 210908961}
+  - component: {fileID: 210908967}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -9703,6 +9704,47 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 2cfac36f1468dae4eb63714c65986e43, type: 3}
+--- !u!114 &210908967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210908959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a633fa9733d0b3f46b396d1ad463d438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redMonster1: {fileID: 0}
+  redMonster2: {fileID: 0}
+  blackMonster1: {fileID: 0}
+  blackMonster2: {fileID: 0}
+  blackMonster3: {fileID: 0}
+  blackMonster4: {fileID: 0}
+  blackMonster5: {fileID: 0}
+  blackMonster6: {fileID: 0}
+  blackMonster7: {fileID: 0}
+  blackMonster8: {fileID: 0}
+  blackMonster9: {fileID: 0}
+  blackMonster10: {fileID: 0}
+  redM1: {fileID: 0}
+  redM2: {fileID: 0}
+  blaM1: {fileID: 0}
+  blaM2: {fileID: 0}
+  blaM3: {fileID: 0}
+  blaM4: {fileID: 0}
+  blaM5: {fileID: 0}
+  blaM6: {fileID: 0}
+  blaM7: {fileID: 0}
+  blaM8: {fileID: 0}
+  blaM9: {fileID: 0}
+  blaM10: {fileID: 0}
+  scaleUpSpeed: 0.15
+  scaleDownSpeed: 0.8
+  isInLightArea: 1
+  BadMonsterAppear: {fileID: 0}
+  BadMonsterHide: {fileID: 0}
 --- !u!1 &213859997
 GameObject:
   m_ObjectHideFlags: 0

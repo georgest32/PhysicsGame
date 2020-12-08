@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Iceberg_Platform
+  m_Shader: {fileID: 4800000, guid: 578c53cdd4c7ed3479336c809a418a68, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: e06136288de4618448263e90bdaf584b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseSpecular:
+        m_Texture: {fileID: 2800000, guid: 1eec57a7988ba464e995ef0f99f1d63b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 4a527ff36c6f6c0429d33f93ca1c32c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: 41eec841ebdfe304b8ffcb929468b556, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTexture:
+        m_Texture: {fileID: 2800000, guid: 14d8700d3d437ae44a013b50d557a5b5, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 2800000, guid: a47694fa57454b048abb929e17920373, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveTexture:
+        m_Texture: {fileID: 2800000, guid: 37fa3f733ea47ca429ca0ae1f246ae10, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c334de1e067fe17478ee79fa9850e514, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AOIntensity: 6.38
+    - _BaseNormalIntensity: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalIntensity: 0.44
+    - _DetailNormalMapScale: 1
+    - _DetailTextureintensity: 0.074
+    - _DstBlend: 0
+    - _Emissive: 0.106
+    - _FresnelRadius: 0.672
+    - _Fresnelintensity: 0.767
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _Glossinttensity: 0.519
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Specularintensity: 0.625
+    - _SrcBlend: 1
+    - _TranslucencyIntensity: 1.19
+    - _TranslucencyWidth: 0.73
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _node_2312: 0
+    m_Colors:
+    - _BaseColor: {r: 0.5661765, g: 0.5661765, b: 0.5661765, a: 1}
+    - _Color: {r: 0.55, g: 0.55, b: 0.55, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 0.34526387, g: 0.5015735, b: 0.75735295, a: 1}
+    - _TranslucencyColor: {r: 0.7523248, g: 0.818574, b: 0.8455882, a: 1}

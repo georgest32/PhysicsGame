@@ -44,7 +44,7 @@ public class BadMonsterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //testMonster();
     }
 
     // Update is called once per frame
@@ -172,5 +172,23 @@ public class BadMonsterController : MonoBehaviour
         //    redM1.transform.localScale += new Vector3(.1f, .1f, .1f); 
         //}
 
+    }
+
+    void testMonster()
+    {
+        BadMonsterAppear.Play();
+
+        redMonster1.Play();
+        redMonster2.Play();
+        blackMonster1.Play();
+        blackMonster2.Play();
+        blackMonster3.Play();
+        blackMonster4.Play();
+        blackMonster5.Play();
+        blackMonster6.Play();
+        blackMonster7.Play();
+        blackMonster8.Play();
+        blackMonster9.Play();
+        blackMonster10.Play();
     }
 }
