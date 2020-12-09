@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public bool inlight;
     public bool gameHasStarted;
     public BadMonsterController badMonsterController;
+    public bool playedAudio = false;
 
     private void Start()
     {
@@ -73,6 +74,7 @@ public class PlayerController : MonoBehaviour
 
         if (!inlight)
         {
+
             badMonsterController.MonsterAttack();
             //badMonsterController.BadMonsterHide.Play();
         }

@@ -9886,6 +9886,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3faadf2152cdb49c6812c66a81f91bfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 60
+  timeLimit: 75
   player: {fileID: 0}
   candles: {fileID: 0}
