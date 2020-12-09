@@ -16,7 +16,6 @@ public class MenuController : MonoBehaviour
     void Start()
     {
         camStartPos = new Vector3(100f, -10.8f + 3.1f, -632 + -15.5f);
-
     }
 
     // Update is called once per frame
@@ -25,7 +24,6 @@ public class MenuController : MonoBehaviour
         if (startingGame)
         {
             trans.LookAt(player.position);
-
             trans.position = Vector3.Lerp(trans.position, camStartPos, CamMoveSpeed * Time.deltaTime);
 
             if (Time.time - camTime > 3)
@@ -38,12 +36,10 @@ public class MenuController : MonoBehaviour
         }
     }
 
-        public void Play()
+    public void Play()
     {
         GameObject.FindGameObjectWithTag("Menu").SetActive(false);
-
         camTime = Time.time;
-
         startingGame = true;
     }
 }

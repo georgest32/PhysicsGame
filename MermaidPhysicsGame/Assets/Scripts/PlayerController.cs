@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public int strokeTimeL = 0;
     public Transform rightOar;
     public Transform leftOar;
+    public int candles = 0;
 
     // Update is called once per frame
     void Update() 
