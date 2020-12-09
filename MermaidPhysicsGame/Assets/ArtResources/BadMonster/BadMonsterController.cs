@@ -46,6 +46,8 @@ public class BadMonsterController : MonoBehaviour
     public PlayerController playerController;
     public float elapsedTime = 0;
 
+    public GameObject gameoverScreen;
+
 
     // Start is called before the first frame update
     void Start()
@@ -67,7 +69,7 @@ public class BadMonsterController : MonoBehaviour
 
         if (elapsedTime > 10)
         {
-            SceneManager.LoadScene("Level1");
+            gameoverScreen.SetActive(true);
         }
 
         //enter the darkness, monster particle begin to scale up, until fill the screen. largest scale = 2
