@@ -77,6 +77,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             badMonsterController.MonsterRestrain();
+            badMonsterController.elapsedTime = 0;
             //badMonsterController.BadMonsterAppear.Play();
         }
     }

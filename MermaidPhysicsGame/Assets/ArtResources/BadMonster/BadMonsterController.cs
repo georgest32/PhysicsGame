@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BadMonsterController : MonoBehaviour
 {
@@ -41,6 +42,7 @@ public class BadMonsterController : MonoBehaviour
     public AudioSource BadMonsterHide;
 
     public PlayerController playerController;
+    public float elapsedTime = 0;
 
 
     // Start is called before the first frame update
@@ -58,6 +60,13 @@ public class BadMonsterController : MonoBehaviour
         //    blackMonster1.Stop();
         //    blackMonster2.Stop();
         //}
+
+        //since we don't have a loss screen, the game reloads upon loss
+
+        if (elapsedTime > 10)
+        {
+            SceneManager.LoadScene("Level1");
+        }
 
         //enter the darkness, monster particle begin to scale up, until fill the screen. largest scale = 2
         if (!playerController.inlight && redM1.transform.localScale.x <= 2)
@@ -90,6 +99,11 @@ public class BadMonsterController : MonoBehaviour
             blaM8.transform.localScale -= new Vector3(scaleDownSpeed * Time.deltaTime, scaleDownSpeed * Time.deltaTime, 0);
             blaM9.transform.localScale -= new Vector3(scaleDownSpeed * Time.deltaTime, scaleDownSpeed * Time.deltaTime, 0);
             blaM10.transform.localScale -= new Vector3(scaleDownSpeed * Time.deltaTime, scaleDownSpeed * Time.deltaTime, 0);
+        }
+
+        if (!playerController.inlight)
+        {
+            elapsedTime += Time.deltaTime;
         }
     }
 
