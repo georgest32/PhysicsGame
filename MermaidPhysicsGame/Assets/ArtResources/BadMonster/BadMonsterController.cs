@@ -40,6 +40,8 @@ public class BadMonsterController : MonoBehaviour
     public AudioSource BadMonsterAppear;
     public AudioSource BadMonsterHide;
 
+    public PlayerController playerController;
+
 
     // Start is called before the first frame update
     void Start()
@@ -58,7 +60,7 @@ public class BadMonsterController : MonoBehaviour
         //}
 
         //enter the darkness, monster particle begin to scale up, until fill the screen. largest scale = 2
-        if (!isInLightArea && redM1.transform.localScale.x <= 2)
+        if (!playerController.inlight && redM1.transform.localScale.x <= 2)
         {
             redM1.transform.localScale += new Vector3(scaleUpSpeed * Time.deltaTime, scaleUpSpeed * Time.deltaTime, 0);
             redM2.transform.localScale += new Vector3(scaleUpSpeed * Time.deltaTime, scaleUpSpeed * Time.deltaTime, 0);
@@ -74,7 +76,7 @@ public class BadMonsterController : MonoBehaviour
             blaM10.transform.localScale += new Vector3(scaleUpSpeed * Time.deltaTime, scaleUpSpeed * Time.deltaTime, 0);
         }
         //enter the light, monster particle begin to scale down, smallest scale = 0.6
-        if (isInLightArea && redM1.transform.localScale.x >= 0.6)
+        if (playerController.inlight && redM1.transform.localScale.x >= 0.6)
         {
             redM1.transform.localScale -= new Vector3(scaleDownSpeed * Time.deltaTime, scaleDownSpeed * Time.deltaTime, 0);
             redM2.transform.localScale -= new Vector3(scaleDownSpeed * Time.deltaTime, scaleDownSpeed * Time.deltaTime, 0);
@@ -91,10 +93,8 @@ public class BadMonsterController : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    public void MonsterDispel()
     {
-        isInLightArea = true;
-
         BadMonsterHide.Play();
 
         redMonster1.Stop();
@@ -127,10 +127,8 @@ public class BadMonsterController : MonoBehaviour
         //blaM4.transform.localScale = new Vector3(0.6f, 0.6f, 0.6f);
     }
 
-    void OnTriggerStay(Collider other)
+    public void MonsterRestrain()
     {
-        isInLightArea = true;
-
         redMonster1.Stop();
         redMonster2.Stop();
         blackMonster1.Stop();
@@ -146,10 +144,8 @@ public class BadMonsterController : MonoBehaviour
         
     }
 
-    void OnTriggerExit(Collider other)
+    public void MonsterAttack()
     {
-        isInLightArea = false;
-
         BadMonsterAppear.Play();
 
         redMonster1.Play();
@@ -164,31 +160,13 @@ public class BadMonsterController : MonoBehaviour
         blackMonster8.Play();
         blackMonster9.Play();
         blackMonster10.Play();
-        
-        
+
+
 
         //if (other.tag != "LightArea") 
         //{ 
         //    redM1.transform.localScale += new Vector3(.1f, .1f, .1f); 
         //}
 
-    }
-
-    void testMonster()
-    {
-        BadMonsterAppear.Play();
-
-        redMonster1.Play();
-        redMonster2.Play();
-        blackMonster1.Play();
-        blackMonster2.Play();
-        blackMonster3.Play();
-        blackMonster4.Play();
-        blackMonster5.Play();
-        blackMonster6.Play();
-        blackMonster7.Play();
-        blackMonster8.Play();
-        blackMonster9.Play();
-        blackMonster10.Play();
     }
 }

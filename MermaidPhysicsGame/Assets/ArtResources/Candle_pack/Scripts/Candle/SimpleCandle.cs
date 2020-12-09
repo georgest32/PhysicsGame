@@ -21,7 +21,11 @@ public class SimpleCandle : MonoBehaviour
 	float lightDefaultIntensity; 
 	float candleDefaultHeigth;
 	Material candleDefaultMaterial;
-	float meltAmount; 
+	float meltAmount;
+
+	public PlayerController player;
+	public GameObject candles;
+	private bool anyCandlesLit;
 
 
 	//=============================================================================================================================	
@@ -58,6 +62,27 @@ public class SimpleCandle : MonoBehaviour
 			{
 				meltAmount = 0.99f;
 				SetFire (false);
+
+
+				GameObject[] flames = GameObject.FindGameObjectsWithTag("CandleFlame");
+
+                for(int i = 0; i < flames.Length; i++)
+                {
+                    if (flames[i].GetComponent<Light>().enabled)
+                    {
+						anyCandlesLit = true;
+						return;
+                    }
+                    else
+                    {
+						anyCandlesLit = false;
+                    }
+                }
+
+                if (player.gameHasStarted && !anyCandlesLit)
+                {
+					player.inlight = false;
+                }
 			}
 
 		}

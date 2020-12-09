@@ -9790,6 +9790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8202422339892057936}
   - component: {fileID: 8202422338880382878}
+  - component: {fileID: 6139859466392050942}
   m_Layer: 8
   m_Name: Fire
   m_TagString: CandleFlame
@@ -9873,3 +9874,18 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 9.6
   m_ShadowAngle: 0
+--- !u!114 &6139859466392050942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8202422339892057937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3faadf2152cdb49c6812c66a81f91bfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeLimit: 60
+  player: {fileID: 0}
+  candles: {fileID: 0}

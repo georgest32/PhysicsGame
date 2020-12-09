@@ -8,6 +8,7 @@ TagManager:
   - Menu
   - MenuCamera
   - CandleFlame
+  - CandleContainer
   layers:
   - Default
   - TransparentFX

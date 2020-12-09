@@ -14,6 +14,15 @@ public class PlayerController : MonoBehaviour
     public Transform rightOar;
     public Transform leftOar;
     public int candles = 0;
+    public bool inlight;
+    public bool gameHasStarted;
+    public BadMonsterController badMonsterController;
+
+    private void Start()
+    {
+        gameHasStarted = false;
+        inlight = true;
+    }
 
     // Update is called once per frame
     void Update() 
@@ -58,6 +67,17 @@ public class PlayerController : MonoBehaviour
         {
             decayR = 1f;
             strokeTimeR = 0;
+        }
+
+        if (!inlight)
+        {
+            badMonsterController.MonsterAttack();
+            //badMonsterController.BadMonsterHide.Play();
+        }
+        else
+        {
+            badMonsterController.MonsterRestrain();
+            //badMonsterController.BadMonsterAppear.Play();
         }
     }
 }

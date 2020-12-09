@@ -894,6 +894,7 @@ MonoBehaviour:
   isInLightArea: 0
   BadMonsterAppear: {fileID: 1307099108}
   BadMonsterHide: {fileID: 1495812291}
+  playerController: {fileID: 0}
 --- !u!33 &2061575274
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1168,6 +1169,7 @@ GameObject:
   - component: {fileID: 9051162217538504283}
   - component: {fileID: 9051162217538504284}
   - component: {fileID: 9051162217538504285}
+  - component: {fileID: 9051162217538504287}
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -1175,6 +1177,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &9051162217538504287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9051162217538504286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee59533879a564a8a833e31f769e054f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!198 &9051162217595312611 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 6975284403012082638, guid: 1e60b3d883a5fc74baa18549d3a0cbe2,
