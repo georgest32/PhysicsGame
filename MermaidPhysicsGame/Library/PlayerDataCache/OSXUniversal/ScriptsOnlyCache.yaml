@@ -11,6 +11,10 @@ ScriptsOnlyBuild:
     - DWP2.WaterObjectManager
     - DWP2.WaterObjectMaterial
     - DefaultWater.Water
+    - GOBtn
+    - GameOver
+    - LHCollider
+    - LeftPaddleAnime
     - LightShafts
     - LuxWater.LuxWater_ProjectorRenderer
     - LuxWater.LuxWater_UnderWaterBlur
@@ -19,8 +23,10 @@ ScriptsOnlyBuild:
     - LuxWater.LuxWater_WaterVolumeTrigger
     - LuxWater_SetToGerstnerHeight
     - MenuController
+    - MerimaidAnime
     - Orbital
     - PlayerController
+    - RightPaddleAnime
     - SelfRotate
     - SimpleCandle
     - StartMenu
@@ -616,37 +622,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16468}
     - Class: 114
-      Script: {instanceID: 29136}
+      Script: {instanceID: 28902}
     - Class: 114
-      Script: {instanceID: 29140}
+      Script: {instanceID: 28906}
     - Class: 114
-      Script: {instanceID: 29626}
+      Script: {instanceID: 29392}
     - Class: 114
-      Script: {instanceID: 29630}
+      Script: {instanceID: 29396}
     - Class: 114
-      Script: {instanceID: 29932}
+      Script: {instanceID: 29698}
     - Class: 114
-      Script: {instanceID: 29936}
+      Script: {instanceID: 29702}
     - Class: 114
-      Script: {instanceID: 30396}
+      Script: {instanceID: 30162}
     - Class: 114
-      Script: {instanceID: 30400}
+      Script: {instanceID: 30166}
     - Class: 114
-      Script: {instanceID: 30854}
+      Script: {instanceID: 30620}
     - Class: 114
-      Script: {instanceID: 30858}
+      Script: {instanceID: 30624}
     - Class: 114
-      Script: {instanceID: 31138}
+      Script: {instanceID: 30904}
     - Class: 114
-      Script: {instanceID: 31142}
+      Script: {instanceID: 30908}
     - Class: 114
-      Script: {instanceID: 31570}
+      Script: {instanceID: 31336}
     - Class: 114
-      Script: {instanceID: 31574}
+      Script: {instanceID: 31340}
     - Class: 114
-      Script: {instanceID: 32144}
+      Script: {instanceID: 31910}
     - Class: 114
-      Script: {instanceID: 32148}
+      Script: {instanceID: 31914}
+    - Class: 114
+      Script: {instanceID: 440492}
+    - Class: 114
+      Script: {instanceID: 594742}
+    - Class: 114
+      Script: {instanceID: 594744}
+    - Class: 114
+      Script: {instanceID: 594746}
+    - Class: 114
+      Script: {instanceID: 619822}
+    - Class: 114
+      Script: {instanceID: 796296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 121
@@ -676,6 +694,8 @@ ScriptsOnlyBuild:
     - Class: 200
       Script: {instanceID: 0}
     - Class: 205
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 218
       Script: {instanceID: 0}
@@ -1116,7 +1136,7 @@ ScriptsOnlyBuild:
     className: MenuController
   - hash:
       serializedVersion: 2
-      Hash: 4e1ffbbf58dca86f0dae0b0552fdcc43
+      Hash: 699fd7ea96724b7c3df88c142ea4f853
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -1572,7 +1592,7 @@ ScriptsOnlyBuild:
     className: PostProcessResources
   - hash:
       serializedVersion: 2
-      Hash: 3212f2d0cf2e49a92783823d3d2cc352
+      Hash: 34ede9418b091cea5f198a6581680254
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BadMonsterController
@@ -2416,6 +2436,48 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 600fc192435f45b67f039381b3cfcb18
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LHCollider
+  - hash:
+      serializedVersion: 2
+      Hash: d069158be73409f7bd2950f85a2bb53b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MaterialShowcaseRotationScript
+  - hash:
+      serializedVersion: 2
+      Hash: 659d6ceab26f9e4237abaaf29249f293
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RightPaddleAnime
+  - hash:
+      serializedVersion: 2
+      Hash: a88b5702180e095bf4aabb2fbe05f5ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MerimaidAnime
+  - hash:
+      serializedVersion: 2
+      Hash: 659d6ceab26f9e4237abaaf29249f293
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LeftPaddleAnime
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameOver
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GOBtn
   platform: 2
   scenePathNames:
   - Assets/Scenes/00_StartMenu.unity
