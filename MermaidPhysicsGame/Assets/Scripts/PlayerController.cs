@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour
     public float decayL = 1f;
     public float accR = 0f;
     public float accL = 0f;
-    public int strokeTimeR = 0;
-    public int strokeTimeL = 0;
+    public static int strokeTimeR = 0;
+    public static int strokeTimeL = 0;
     public Transform rightOar;
     public Transform leftOar;
     public int candles = 0;
@@ -26,13 +26,14 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update() 
+    void Update()
     {
         if (Input.GetKey(KeyCode.F))
         {
             if (strokeTimeL > 9)
             {
                 GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * strokeForce / decayL, leftOar.position);
+            
                 decayL *= 1.5f;
             }
             else
@@ -45,9 +46,10 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.J))
         {
-            if(strokeTimeR > 9)
+            if (strokeTimeR > 9)
             {
                 GetComponent<Rigidbody>().AddForceAtPosition(transform.forward * strokeForce / decayR, rightOar.position);
+               
                 decayR *= 1.5f;
             }
             else
