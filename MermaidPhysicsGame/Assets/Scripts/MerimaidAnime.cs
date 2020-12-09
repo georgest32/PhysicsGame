@@ -28,12 +28,14 @@ public class MerimaidAnime : MonoBehaviour
             {
 
                 animBoth.Play("Mermaid_Both"); // Yanxi: when player long-presses 'J', triggers mermaid right-paddling animation
+                
 
 
             }
             else
             {
                 animLeft.Play("Mermaid_Right"); // Yanxi: when player long-presses 'F', triggers mermaid left-paddling animation
+                
             }
 
 
@@ -46,12 +48,14 @@ public class MerimaidAnime : MonoBehaviour
             {
 
                 animBoth.Play("Mermaid_Both"); // Yanxi: when player long-presses 'J', triggers mermaid right-paddling animation
+                
 
 
             }
             else
             {
                 animRight.Play("Mermaid_Left"); // Yanxi: when player long-presses 'F', triggers mermaid left-paddling animation
+                
             }
 
             
