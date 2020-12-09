@@ -76,13 +76,11 @@ public class PlayerController : MonoBehaviour
         {
 
             badMonsterController.MonsterAttack();
-            //badMonsterController.BadMonsterHide.Play();
         }
         else
         {
             badMonsterController.MonsterRestrain();
             badMonsterController.elapsedTime = 0;
-            //badMonsterController.BadMonsterAppear.Play();
         }
     }
 }
