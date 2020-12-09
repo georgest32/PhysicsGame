@@ -32,6 +32,7 @@ public class BeaconController : MonoBehaviour
         if(other.tag == "Player")
         {
             player.candles++;
+            player.inlight = true;
 
             GameObject newCandle = Instantiate(newCandlePrefab, new Vector3(0, 0, 0), Quaternion.identity);
             Transform candleSpot = candleContainer.GetChild(player.candles);
@@ -40,7 +41,7 @@ public class BeaconController : MonoBehaviour
             newCandle.transform.localPosition = new Vector3(0, 0.35f, 0);
             newCandle.GetComponentInChildren<Light>().enabled = true;
 
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 }

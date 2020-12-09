@@ -5,12 +5,14 @@ using UnityEngine;
 public class MenuController : MonoBehaviour
 {
     public GameObject mainCam;
+    public GameObject startCandle;
     public Transform player;
     Vector3 camStartPos;
     public Transform trans;
     public float CamMoveSpeed = 5f;
     private bool startingGame;
     private float camTime = 0;
+    public PlayerController playerController;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +33,8 @@ public class MenuController : MonoBehaviour
                 startingGame = false;
                 mainCam.GetComponent<Orbital>().enabled = true;
                 player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
-                GameObject.FindGameObjectWithTag("CandleFlame").GetComponent<Light>().enabled = true;
+                startCandle.GetComponent<Light>().enabled = true;
+                playerController.gameHasStarted = true;
             }
         }
     }
