@@ -38,8 +38,10 @@ public class BadMonsterController : MonoBehaviour
     public bool isInLightArea = true;
 
     //Audio
-    public AudioSource BadMonsterAppear;
-    public AudioSource BadMonsterHide;
+    public AudioSource badMonsterAppear;
+    public AudioSource badMonsterHide;
+    public AudioClip appearClip;
+    public AudioClip dispelClip;
 
     public PlayerController playerController;
     public float elapsedTime = 0;
@@ -104,15 +106,17 @@ public class BadMonsterController : MonoBehaviour
         if (!playerController.inlight)
         {
             elapsedTime += Time.deltaTime;
-            BadMonsterAppear.Play();
+            //badMonsterAppear.Play();
         }
     }
 
     public void MonsterDispel()
     {
-        if (!BadMonsterHide.isPlaying)
+        GetComponent<AudioSource>().clip = dispelClip;
+
+        if (!GetComponent<AudioSource>().isPlaying)
         {
-            BadMonsterHide.Play();
+            GetComponent<AudioSource>().Play(1);
         }
 
         redMonster1.Stop();
@@ -164,9 +168,11 @@ public class BadMonsterController : MonoBehaviour
 
     public void MonsterAttack()
     {
-        if (!BadMonsterAppear.isPlaying)
+        GetComponent<AudioSource>().clip = appearClip;
+
+        if (!GetComponent<AudioSource>().isPlaying)
         {
-            BadMonsterAppear.Play();
+            GetComponent<AudioSource>().Play(0);
         }
 
         redMonster1.Play();
