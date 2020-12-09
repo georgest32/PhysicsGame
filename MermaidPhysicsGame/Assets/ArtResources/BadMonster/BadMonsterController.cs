@@ -104,12 +104,16 @@ public class BadMonsterController : MonoBehaviour
         if (!playerController.inlight)
         {
             elapsedTime += Time.deltaTime;
+            BadMonsterAppear.Play();
         }
     }
 
     public void MonsterDispel()
     {
-        BadMonsterHide.Play();
+        if (!BadMonsterHide.isPlaying)
+        {
+            BadMonsterHide.Play();
+        }
 
         redMonster1.Stop();
         redMonster2.Stop();
@@ -160,7 +164,10 @@ public class BadMonsterController : MonoBehaviour
 
     public void MonsterAttack()
     {
-        BadMonsterAppear.Play();
+        if (!BadMonsterAppear.isPlaying)
+        {
+            BadMonsterAppear.Play();
+        }
 
         redMonster1.Play();
         redMonster2.Play();

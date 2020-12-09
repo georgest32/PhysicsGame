@@ -31,6 +31,8 @@ public class BeaconController : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            GetComponent<AudioSource>().Play();
+
             player.candles++;
             player.inlight = true;
 
@@ -41,7 +43,12 @@ public class BeaconController : MonoBehaviour
             newCandle.transform.localPosition = new Vector3(0, 0.35f, 0);
             newCandle.GetComponentInChildren<Light>().enabled = true;
 
-            Destroy(gameObject);
+            for(int i = 0; i < transform.childCount; i++)
+            {
+                Destroy(transform.GetChild(i).gameObject);
+            }
+
+            GetComponent<BoxCollider>().enabled = false;
         }
     }
 }

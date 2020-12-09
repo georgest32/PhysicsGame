@@ -18,6 +18,8 @@ public class MenuController : MonoBehaviour
     void Start()
     {
         camStartPos = new Vector3(100f, -10.8f + 3.1f, -632 + -15.5f);
+        //Play();
+        playerController.gameHasStarted = true;
     }
 
     // Update is called once per frame
